@@ -23,6 +23,7 @@ underpins each design decision.
 | [`04-responsible-use-capstone.md`](./04-responsible-use-capstone.md) | The "slow down" argument, compounding-error math, a hands-on friction exercise | You've built the harness and want to close the loop on *how* to use it |
 | [`05-outdated-vs-current.md`](./05-outdated-vs-current.md) | Where the talk (and older docs) diverge from the September 2026 `earendil-works/pi` repo | You're cross-checking a specific claim or command |
 | [`06-recommendations-and-caveats.md`](./06-recommendations-and-caveats.md) | Sequencing advice, thresholds for "done," and honest caveats about source reliability | You're adapting this into a course or workshop |
+| [`mac-app/`](./mac-app/README.md) | A native macOS SwiftUI app that bundles every guide and exercise into a browsable, offline reader | You want to read this tutorial on a Mac without a browser or editor open |
 
 ## Prerequisites
 

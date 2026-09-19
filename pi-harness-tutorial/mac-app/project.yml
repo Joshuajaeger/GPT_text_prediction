@@ -1,0 +1,38 @@
+name: PiHarnessTutorial
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+targets:
+  PiHarnessTutorial:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+    resources:
+      - path: Resources
+        type: folder
+      - path: ../README.md
+      - path: ../00-motivation.md
+      - path: ../01-architecture-reference.md
+      - path: ../02-external-sources.md
+      - path: ../04-responsible-use-capstone.md
+      - path: ../05-outdated-vs-current.md
+      - path: ../06-recommendations-and-caveats.md
+      - path: ../03-build-track
+        type: folder
+      - path: ../exercises
+        type: folder
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.local.pi-harness-tutorial
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Pi Harness Tutorial"
+        INFOPLIST_KEY_NSHumanReadableCopyright: ""
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        ENABLE_PREVIEWS: YES
+        CODE_SIGN_STYLE: Automatic
